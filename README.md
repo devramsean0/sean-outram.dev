@@ -1,0 +1,2 @@
+# sean-outram.dev
+Website

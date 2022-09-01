@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import gridStyles from './grid.module.scss';
+import gridStyles from './../css/grid.module.scss';
 export default function Layout(params) {
     return (
         <>
@@ -15,6 +15,7 @@ export default function Layout(params) {
                     </h1>
                 </div>
                 <div className={gridStyles[`div${2}`]}>
+
                 </div>
                 <div className={gridStyles[`div${3}`]}>
                 </div>
@@ -25,7 +26,7 @@ export default function Layout(params) {
                 </div>
                 <div className={gridStyles[`div${6}`]}>
                 </div>
-                <div className={`${gridStyles[`div${7}`]} border`}>
+                <div className={`${gridStyles[`div${7}`]} mainSection`}>
                     <section className='text'>
                         {params.children}
                     </section>

@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
 
 div {
-    background-color: #000;
     color: white;
 }
 body {
@@ -21,25 +20,23 @@ body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
-.border {
-    border: 1px solid white;
+.mainSection {
+    background-color: #fff;
+    border-radius: 8px;
 }
-
-/* Button */
-
-.btngroup .button {
-    background-color: #4CAF50; /* Green */
-    border: 1px solid green;
-    color: white;
-    padding: 15px 32px;
+.mainSection .header {
+    color: #000;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    cursor: pointer;
-    float: left;
-  }
-  
-  .btngroup .button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-  }
+}
+.mainSection .text {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+.smallImage {
+    width: 50%;
+    height: 50%;
+}

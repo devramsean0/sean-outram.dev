@@ -26,9 +26,9 @@ export default function Layout(params) {
                 <div className={gridStyles[`div${6}`]}>
                 </div>
                 <div className={`${gridStyles[`div${7}`]} border`}>
-                    <p className='text'>
+                    <section className='text'>
                         {params.children}
-                    </p>
+                    </section>
                 </div>
                 <div className={gridStyles[`div${8}`]}>
                     <h1 className='header'>{params.title}</h1>

@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Layout(params: { children: React.ReactNode }) {
     return (
       <>
@@ -8,9 +9,15 @@ export default function Layout(params: { children: React.ReactNode }) {
           <div className="box4"></div>
           <div className="box5">{params.children}</div>
           <div className="box6"></div>
-          <div className="box7"></div>
-          <div className="box8"></div>
-          <div className="box9"></div>
+          <div className="box7">
+            <Image src="/github.ico" alt="Github logo" width={50} height={50} />
+          </div>
+          <div className="box8">
+            <p>test</p>
+          </div>
+          <div className="box9">
+            <Image src="/discord.webp" alt="Discord logo" width={50} height={50} />
+          </div>
         </main>
       </>
     )
